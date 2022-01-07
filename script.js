@@ -46,7 +46,7 @@ ajax.onreadystatechange = function () {
                               }
                           }
                       }
-                      newdetail.open('get', `http://www.omdbapi.com/?apikey=2e784222&i=${btn.dataset.movie}`)
+                      newdetail.open('get', `https://www.omdbapi.com/?apikey=2e784222&i=${btn.dataset.movie}`)
                       newdetail.send()
                 })
 })
