@@ -55,7 +55,7 @@ ajax.onreadystatechange = function () {
       }
       
   }
-ajax.open('get', `http://www.omdbapi.com/?apikey=2e784222&s=${input}`)
+ajax.open('get', `https://www.omdbapi.com/?apikey=2e784222&s=${input}`)
 ajax.send()
     
 })
